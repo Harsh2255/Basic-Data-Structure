@@ -8,8 +8,7 @@ public class JumpSearch
 		// Finding block size to be jumped 
 		int step = (int)Math.floor(Math.sqrt(n)); 
 
-		// Finding the block where element is 
-		// present (if it is present) 
+		
 		int prev = 0; 
 		while (arr[Math.min(step, n)-1] < x) 
 		{ 
@@ -25,13 +24,12 @@ public class JumpSearch
 		{ 
 			prev++; 
 
-			// If we reached next block or end of 
-			// array, element is not present. 
+		
 			if (prev == Math.min(step, n)) 
 				return -1; 
 		} 
 
-		// If element is found 
+		
 		if (arr[prev] == x) 
 			return prev; 
 
@@ -48,7 +46,7 @@ public class JumpSearch
 		// Find the index of 'x' using Jump Search 
 		int index = jumpSearch(arr, x); 
 
-		// Print the index where 'x' is located 
+		
 		System.out.println("\nNumber " + x + 
 							" is at index " + index); 
 	} 
