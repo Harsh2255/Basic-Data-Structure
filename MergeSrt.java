@@ -65,7 +65,7 @@ class MergeSort {
             sort(arr, l, m); 
             sort(arr, m + 1, r); 
   
-            // Merge the sorted halves 
+            
             merge(arr, l, m, r); 
         } 
     } 
