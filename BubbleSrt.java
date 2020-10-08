@@ -15,7 +15,7 @@ class BubbleSort
 				} 
 	} 
 
-	/* Prints the array */
+	
 	void printArray(int arr[]) 
 	{ 
 		int n = arr.length; 
@@ -24,7 +24,7 @@ class BubbleSort
 		System.out.println(); 
 	} 
 
-	// Driver method to test above 
+	// Driver method 
 	public static void main(String args[]) 
 	{ 
 		BubbleSort ob = new BubbleSort(); 
